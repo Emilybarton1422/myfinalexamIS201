@@ -1,0 +1,65 @@
+body{ 
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.common{
+    /* background-color: rgb(209, 205, 205);   */
+    /* border: 2px solid white; */
+    position: absolute;
+    
+}
+.header{
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 3px grey;
+}
+
+.leftmenu{
+    top: 114px; /*Have to do some math...*/
+    left: 5px;
+    width: 100px;
+    bottom: 10px;
+    z-index: 1;
+    padding-top: 40px;
+    height: fit-content
+    
+}
+.mainbody{
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 10px;
+    padding-right: 5px;
+    height: fit-content;
+    border-left: solid 3px grey;
+    border-right: solid 3px grey;
+    
+}
+.rightmenu{
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 10px;
+    padding-left: 5px;  
+    height:fit-content; 
+    
+}
+.footer{ 
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 20px;
+    font-size: 8px;
+    color: grey;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    z-index: 2;
+    
+}
+.subheader{
+    float: right;
+}

@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: lightyellow;
+}
+li{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a{
+    color: maroon;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    /* font-weight: bold;
+    font-size: 18px; */
+}
+a:visited{
+    color: rgb(230, 35, 100);     /*turns blue when you visit site*/ 
+} 
+.ResumelistName {
+    font-weight: bold;
+    font-style: normal;
+    font-size: medium;
+}
+.underline {text-decoration: underline;}
+.bold{ font-weight: bold;}
+.justify {text-align: justify;}
+.homebackground{
+    background-image: url(file:///Users/emilybarton/Desktop/Scratch/Images/ocean.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box1{
+    border-width: 1px;  /*border examples*/
+    border-style:dashed;
+    border-color: red;
+}
+.box2{
+    padding: 5px;
+}
+.box3{
+    margin: 50px;
+}
+.center{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 5px solid blanchedalmond;
+    
+}
+.centertext{
+    text-align: center;
+}
+.visited{
+    color: white;
+}
+h4{
+    font-style: italic;
+}
+.notitalic{
+    font-style: normal;
+}
+.aboutmesize{
+    font-size: large;
+}
+/* .border{
+    border: 3px solid rgb(230, 35, 100);
+    display: inline-block;
+} */
+.italic{
+    font-style: italic;
+}
